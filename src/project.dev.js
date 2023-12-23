@@ -2775,7 +2775,7 @@ window.__require = function e(t, n, r) {
           _this.mapHead.active = true;
           _this.miniMapHead.active = true;
           _this.mapHeadLabel.string = "YOUR TURN";
-          _this.miniMapHeadLabel.string = "YOUR TURN";
+          _this.miniMapHeadLabel.string = "YOUR FLEET";
           _this.mapHeadBackground.color = new cc.Color(0, 0, 255);
           _this.miniMapHeadBackground.color = new cc.Color(0, 0, 255);
         }));
@@ -2792,7 +2792,7 @@ window.__require = function e(t, n, r) {
           _this2.mapHead.active = true;
           _this2.miniMapHead.active = true;
           _this2.mapHeadLabel.string = "ENEMY'S TURN";
-          _this2.miniMapHeadLabel.string = "ENEMY'S TURN";
+          _this2.miniMapHeadLabel.string = "ENEMY'S FLEET";
           _this2.mapHeadBackground.color = new cc.Color(146, 123, 48);
           _this2.miniMapHeadBackground.color = new cc.Color(146, 123, 48);
         }));
