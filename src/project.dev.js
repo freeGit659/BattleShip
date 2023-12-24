@@ -2431,6 +2431,7 @@ window.__require = function e(t, n, r) {
         loginScene: cc.Node,
         loadingScene: cc.Node,
         loadingWaves: cc.Node,
+        loginMusic: cc.AudioSource,
         yStart: 40,
         yEnd: 280,
         percentLabel: cc.Label
@@ -2439,6 +2440,7 @@ window.__require = function e(t, n, r) {
       start: function start() {
         this.loginScene.active = true;
         this.loadingScene.active = false;
+        this.loginMusic.volume = cc.sys.localStorage.getItem("mainMusicVolume");
       },
       update: function update(dt) {},
       setPercentLabel: function setPercentLabel(percent) {
